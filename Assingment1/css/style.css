@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+/* .logo{
+    width: 20%;
+    display: flex;
+    padding-right: 5px;
+    align-items: center;
+} */
+.logo img{
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+.a1{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.a2{
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.a2 li{
+    list-style-type: none;
+    padding: 26px 30px;
+}
+
+.a2 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.a2 li :hover{
+    color: gray;
+}
+.b1{
+    background-color: black;
+    width: 150px;
+    height: 555px;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: fixed;
+}
+
+.b2 li{
+    /* margin-top: 30px; */
+    padding-left: 50px;
+}
+.b2 li :hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.b3{
+   margin-top: 50px;
+}
+.b4{
+    margin-top: 230px;
+}
+.b2 li a{
+    color: white;
+    text-decoration: none;
+}
+.c1{
+    height: 550px;
+    background-color: brown;
+    margin-left: 11%;
+    background: black url('../img/back.jpg');
+    background-size: cover;
+}
+.c1 h2{
+    color: white;
+    padding-left: 170px;
+    padding-top: 150px;
+}
+
+.d1{
+    padding-left: 500px;
+    font-weight: bold;
+    background-color: aqua;
+}
+.c2{
+    background-color: rgb(214, 220, 223);
+    height: 550px;
+    margin-left: 11%;
+}
+
+.c2 h1{
+    text-align: center;
+}
+.c2 p{
+    padding-top: 50px;
+}
+
+.c2 b{
+    color: green;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.himg{
+    padding-left: 400px;
+    padding-top: 30px;
+}
+.himg img{
+    border: 3px solid black;
+    border-radius: 20px;
+}
